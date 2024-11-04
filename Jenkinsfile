@@ -6,7 +6,7 @@ pipeline {
             steps {
                 script {
                     // Build your Docker image
-                    sh 'docker build -t my-kube1 .'
+                    sh 'docker build -t kubernetes .'
                 }
             }
         }
